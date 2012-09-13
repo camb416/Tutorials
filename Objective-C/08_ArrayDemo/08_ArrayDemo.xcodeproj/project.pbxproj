@@ -29,7 +29,7 @@
 		3223108416026EF700FB16AF /* 08_ArrayDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 08_ArrayDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		3223108816026EF700FB16AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3223108B16026EF700FB16AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3223108E16026EF700FB16AF /* 08_ArrayDemo-Prefix.pch */ = {isa = PBXFileReference; path = "08_ArrayDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3223108E16026EF700FB16AF /* 08_ArrayDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "08_ArrayDemo-Prefix.pch"; sourceTree = "<group>"; };
 		3223108F16026EF700FB16AF /* _8_ArrayDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _8_ArrayDemo.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

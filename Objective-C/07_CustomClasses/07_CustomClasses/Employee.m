@@ -10,4 +10,16 @@
 
 @implementation Employee
 
+@synthesize name;
+@synthesize hireDate;
+@synthesize employeeNumber;
+
+// or
+
+// @synthesize name, hireDate, employeeNumber;
+
+-(void) someMethod {
+    NSLog(@"In the method");
+}
+
 @end

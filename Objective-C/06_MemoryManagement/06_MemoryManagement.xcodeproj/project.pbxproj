@@ -29,7 +29,7 @@
 		32D38E8815FFDB30001A6B01 /* 06_MemoryManagement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 06_MemoryManagement; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D38E8C15FFDB30001A6B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32D38E8F15FFDB30001A6B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32D38E9215FFDB30001A6B01 /* 06_MemoryManagement-Prefix.pch */ = {isa = PBXFileReference; path = "06_MemoryManagement-Prefix.pch"; sourceTree = "<group>"; };
+		32D38E9215FFDB30001A6B01 /* 06_MemoryManagement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "06_MemoryManagement-Prefix.pch"; sourceTree = "<group>"; };
 		32D38E9315FFDB30001A6B01 /* _6_MemoryManagement.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _6_MemoryManagement.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +198,7 @@
 		32D38E9815FFDB30001A6B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "06_MemoryManagement/06_MemoryManagement-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -207,6 +208,7 @@
 		32D38E9915FFDB30001A6B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "06_MemoryManagement/06_MemoryManagement-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";

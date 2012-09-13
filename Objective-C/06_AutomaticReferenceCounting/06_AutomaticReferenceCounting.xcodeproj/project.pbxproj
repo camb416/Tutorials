@@ -29,7 +29,7 @@
 		32D38EDF16013072001A6B01 /* 06_AutomaticReferenceCounting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 06_AutomaticReferenceCounting; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D38EE316013072001A6B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32D38EE616013072001A6B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32D38EE916013072001A6B01 /* 06_AutomaticReferenceCounting-Prefix.pch */ = {isa = PBXFileReference; path = "06_AutomaticReferenceCounting-Prefix.pch"; sourceTree = "<group>"; };
+		32D38EE916013072001A6B01 /* 06_AutomaticReferenceCounting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "06_AutomaticReferenceCounting-Prefix.pch"; sourceTree = "<group>"; };
 		32D38EEA16013072001A6B01 /* _6_AutomaticReferenceCounting.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _6_AutomaticReferenceCounting.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

@@ -9,5 +9,15 @@
 #import "MyClass.h"
 
 @implementation MyClass
+{
+    // put your private instance variables here, yo.
+}
+
+-(void)performAction:(int)param{
+    NSLog(@"You passed in the int: %i",param);
+}
+-(int)addNumber:(int)a toNumber:(int)b{
+    return a+b;
+}
 
 @end

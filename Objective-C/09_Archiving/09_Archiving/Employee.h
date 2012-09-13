@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Employee : NSObject
-
+@property NSString *name;
+@property int grade;
+-(NSString *) description;
 @end

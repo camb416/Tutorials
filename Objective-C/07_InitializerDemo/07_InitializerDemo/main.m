@@ -7,15 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Player.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        Player *p = [[Player alloc] initWithScore:10001];
+        NSLog(@"the score on player p is: %i",[p score]);
     }
     return 0;
 }

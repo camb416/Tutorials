@@ -12,9 +12,32 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+    
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSDictionary *states =
+        [NSDictionary dictionaryWithObjectsAndKeys:
+         @"Arizona",@"AZ",
+         @"California", @"CA",
+         @"Colorado", @"CO",
+         @"Hawaii", @"HI",
+         @"New Mexico", @"NM",
+         nil];
+        
+        NSString * someState = @"HI";
+        
+        NSLog(@"What state is %@? %@",someState, [states objectForKey:someState]);
+        
+        // NSDictionary is Immutable
+        
+        NSMutableDictionary *mutableStates;
+        mutableStates = [NSMutableDictionary dictionaryWithDictionary:states];
+        
+        [mutableStates setObject:@"Flo Rida" forKey:@"FL"];
+        
+        NSLog(@" Here's something: %@",[mutableStates objectForKey:@"FL"]);
+        
+        
+        
         
     }
     return 0;

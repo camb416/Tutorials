@@ -10,6 +10,7 @@
 		32D38F011602521B001A6B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D38F001602521B001A6B01 /* Foundation.framework */; };
 		32D38F041602521B001A6B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D38F031602521B001A6B01 /* main.m */; };
 		32D38F081602521B001A6B01 /* _7_CustomClasses.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32D38F071602521B001A6B01 /* _7_CustomClasses.1 */; };
+		32D38F10160252A6001A6B01 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D38F0F160252A6001A6B01 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,10 @@
 		32D38EFC1602521B001A6B01 /* 07_CustomClasses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 07_CustomClasses; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D38F001602521B001A6B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32D38F031602521B001A6B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32D38F061602521B001A6B01 /* 07_CustomClasses-Prefix.pch */ = {isa = PBXFileReference; path = "07_CustomClasses-Prefix.pch"; sourceTree = "<group>"; };
+		32D38F061602521B001A6B01 /* 07_CustomClasses-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "07_CustomClasses-Prefix.pch"; sourceTree = "<group>"; };
 		32D38F071602521B001A6B01 /* _7_CustomClasses.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _7_CustomClasses.1; sourceTree = "<group>"; };
+		32D38F0E160252A6001A6B01 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		32D38F0F160252A6001A6B01 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				32D38F031602521B001A6B01 /* main.m */,
+				32D38F0E160252A6001A6B01 /* Employee.h */,
+				32D38F0F160252A6001A6B01 /* Employee.m */,
 				32D38F071602521B001A6B01 /* _7_CustomClasses.1 */,
 				32D38F051602521B001A6B01 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D38F041602521B001A6B01 /* main.m in Sources */,
+				32D38F10160252A6001A6B01 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

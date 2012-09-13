@@ -10,4 +10,8 @@
 
 @interface MyClass : NSObject
 
+-(void) performAction: (int) param;
+
+- (int) addNumber: (int) a toNumber: (int) b;
+
 @end

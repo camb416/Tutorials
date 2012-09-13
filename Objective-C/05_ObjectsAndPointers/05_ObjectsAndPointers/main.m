@@ -8,14 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+void myFunction(NSString * foo){
+    NSLog(@"The message was %@",foo);
+}
+
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        NSString * message = @"Hello";
+        myFunction(message);
     }
     return 0;
 }

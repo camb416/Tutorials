@@ -13,8 +13,27 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSFileManager * fileMgr = [[NSFileManager alloc] init];
+        NSString *path = @"/Users/cam/Documents/Development/Tutorials/Objective-C/08_FileManagement/text.txt";
+        
+        if([fileMgr fileExistsAtPath:path]){
+            NSLog(@"The file exists at: %@",path);
+            
+            NSDictionary *fileAttributes =
+            [fileMgr
+             attributesOfItemAtPath:path
+             error:nil
+             ];
+            
+            for(NSString * attr in fileAttributes){
+                NSLog(@"the object for key %@ is %@",attr,[fileAttributes objectForKey:attr]);
+            }
+            
+            [fileMgr moveItemAtPath:path toPath:@"/Users/cam/Documents/Development/Tutorials/Objective-C/08_FileManagement/newText.txt" error:nil];
+            
+        } else {
+            NSLog(@"The file does not exist");
+        }
         
     }
     return 0;

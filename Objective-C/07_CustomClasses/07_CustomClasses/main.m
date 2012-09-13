@@ -7,15 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Employee.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // you have an interface .h
+        // and an implementation .m
         
+        // alloc and init are in NSObject
+        Employee * fred = [[Employee alloc] init];
+        
+        
+        [fred someMethod];
     }
     return 0;
 }

@@ -10,13 +10,30 @@
 
 int main(int argc, const char * argv[])
 {
-
-    @autoreleasepool {
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+       NSString *message = @"Hello";
+        NSString *nextMessage =
+        [NSString stringWithFormat:@"The word is: %@", message];
+        NSString *anotherMessage =
+        [[NSString alloc] initWithFormat: @"The word is: %@", message];
         
-    }
+        NSDate *myDate = [NSDate date];
+        NSDate *nextDate = [NSDate dateWithTimeIntervalSince1970:23234544];
+        NSDate *anotherDate = [myDate copy];
+        
+        NSLog(@"The results are %@, %@, %@, %@, %@, %@",
+              message, nextMessage, anotherMessage,
+              myDate, nextDate, anotherDate);
+        
+    // NARC
+    // new, alloc, retain, copy
+    [anotherMessage release];
+    [anotherDate release];
+    
+        [pool drain];
+        
+        
     return 0;
 }
 

@@ -10,4 +10,21 @@
 
 @implementation Player
 
+@synthesize score;
+
+- (id)init
+{
+    return [self initWithScore:5000];
+}
+
+- (id) initWithScore : (int) score_in {
+    self = [super init];
+    if(self) {
+        score = score_in;
+    }
+    return self;
+}
+
+
+
 @end

@@ -29,7 +29,7 @@
 		32D38E4E15FFCE5E001A6B01 /* 05_MessagesAndMethods */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 05_MessagesAndMethods; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D38E5215FFCE5E001A6B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32D38E5515FFCE5E001A6B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32D38E5815FFCE5E001A6B01 /* 05_MessagesAndMethods-Prefix.pch */ = {isa = PBXFileReference; path = "05_MessagesAndMethods-Prefix.pch"; sourceTree = "<group>"; };
+		32D38E5815FFCE5E001A6B01 /* 05_MessagesAndMethods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "05_MessagesAndMethods-Prefix.pch"; sourceTree = "<group>"; };
 		32D38E5915FFCE5E001A6B01 /* _5_MessagesAndMethods.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _5_MessagesAndMethods.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

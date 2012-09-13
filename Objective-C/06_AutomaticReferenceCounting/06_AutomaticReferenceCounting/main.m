@@ -13,8 +13,35 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // on one hand, you have dangling pointers
+        // on the other, you have memory leak
+        //
+        // also the most common source of crashes.
+        
+        // MyClass *myObj = [[MyClass alloc] init];
+        // [myObj someMethod]; // etc
+        
+        // ARC is a compiler process
+        // LLVM scans through your code, and then
+        // synthesizes the allocs and releases
+        
+        // ARC doesn't let you alloc or init anything
+        
+        // this is fine
+        NSString *myString  = [[NSString alloc] init];
+        myString  = @"WTF yo";
+        NSLog(@"%@",myString);
+        
+        // also fine? Seems it...
+        NSString *anotherString;
+        anotherString = @"Hibbity Boopity";
+        NSLog(@"%@",anotherString);
+        
+        // no-no
+        // [myString retain];
+        // [myString release];
+        
+
         
     }
     return 0;

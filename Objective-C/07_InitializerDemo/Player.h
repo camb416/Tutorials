@@ -10,4 +10,7 @@
 
 @interface Player : NSObject
 
+    @property int score;
+    -(id) initWithScore: (int) score_in;
+
 @end
