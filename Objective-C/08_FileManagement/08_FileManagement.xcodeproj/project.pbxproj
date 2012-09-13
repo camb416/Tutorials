@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322311011602769400FB16AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322311001602769400FB16AF /* Foundation.framework */; };
+		322311041602769400FB16AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322311031602769400FB16AF /* main.m */; };
+		322311081602769400FB16AF /* _8_FileManagement.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 322311071602769400FB16AF /* _8_FileManagement.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		322310FA1602769400FB16AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				322311081602769400FB16AF /* _8_FileManagement.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		322310FC1602769400FB16AF /* 08_FileManagement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 08_FileManagement; sourceTree = BUILT_PRODUCTS_DIR; };
+		322311001602769400FB16AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		322311031602769400FB16AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		322311061602769400FB16AF /* 08_FileManagement-Prefix.pch */ = {isa = PBXFileReference; path = "08_FileManagement-Prefix.pch"; sourceTree = "<group>"; };
+		322311071602769400FB16AF /* _8_FileManagement.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _8_FileManagement.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322310F91602769400FB16AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322311011602769400FB16AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322310F11602769400FB16AF = {
+			isa = PBXGroup;
+			children = (
+				322311021602769400FB16AF /* 08_FileManagement */,
+				322310FF1602769400FB16AF /* Frameworks */,
+				322310FD1602769400FB16AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322310FD1602769400FB16AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322310FC1602769400FB16AF /* 08_FileManagement */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322310FF1602769400FB16AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				322311001602769400FB16AF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		322311021602769400FB16AF /* 08_FileManagement */ = {
+			isa = PBXGroup;
+			children = (
+				322311031602769400FB16AF /* main.m */,
+				322311071602769400FB16AF /* _8_FileManagement.1 */,
+				322311051602769400FB16AF /* Supporting Files */,
+			);
+			path = 08_FileManagement;
+			sourceTree = "<group>";
+		};
+		322311051602769400FB16AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				322311061602769400FB16AF /* 08_FileManagement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322310FB1602769400FB16AF /* 08_FileManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3223110B1602769400FB16AF /* Build configuration list for PBXNativeTarget "08_FileManagement" */;
+			buildPhases = (
+				322310F81602769400FB16AF /* Sources */,
+				322310F91602769400FB16AF /* Frameworks */,
+				322310FA1602769400FB16AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 08_FileManagement;
+			productName = 08_FileManagement;
+			productReference = 322310FC1602769400FB16AF /* 08_FileManagement */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322310F31602769400FB16AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Cameron Browning";
+			};
+			buildConfigurationList = 322310F61602769400FB16AF /* Build configuration list for PBXProject "08_FileManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 322310F11602769400FB16AF;
+			productRefGroup = 322310FD1602769400FB16AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322310FB1602769400FB16AF /* 08_FileManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322310F81602769400FB16AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322311041602769400FB16AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		322311091602769400FB16AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3223110A1602769400FB16AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3223110C1602769400FB16AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08_FileManagement/08_FileManagement-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3223110D1602769400FB16AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08_FileManagement/08_FileManagement-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322310F61602769400FB16AF /* Build configuration list for PBXProject "08_FileManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322311091602769400FB16AF /* Debug */,
+				3223110A1602769400FB16AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3223110B1602769400FB16AF /* Build configuration list for PBXNativeTarget "08_FileManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3223110C1602769400FB16AF /* Debug */,
+				3223110D1602769400FB16AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322310F31602769400FB16AF /* Project object */;
+}

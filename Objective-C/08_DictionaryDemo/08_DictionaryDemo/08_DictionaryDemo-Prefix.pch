@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '08_DictionaryDemo' target in the '08_DictionaryDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

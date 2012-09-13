@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '09_Archiving' target in the '09_Archiving' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

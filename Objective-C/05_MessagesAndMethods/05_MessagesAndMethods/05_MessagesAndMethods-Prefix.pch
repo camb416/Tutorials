@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '05_MessagesAndMethods' target in the '05_MessagesAndMethods' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

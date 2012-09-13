@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '08_ArrayDemo' target in the '08_ArrayDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

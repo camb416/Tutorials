@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '07_InitializerDemo' target in the '07_InitializerDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
